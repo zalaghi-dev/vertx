@@ -1,4 +1,4 @@
-import { BrowserRouter, Routes, Route } from "react-router";
+import { HashRouter, Routes, Route } from "react-router";
 import MainLayout from "../layouts/MainLayout";
 import {
   Dashboard,
@@ -12,7 +12,7 @@ import {
 } from "@/pages";
 const RoutesWrapper = () => {
   return (
-    <BrowserRouter>
+    <HashRouter>
       <Routes>
         <Route element={<MainLayout />}>
           <Route element={<Dashboard />} index />
@@ -27,7 +27,7 @@ const RoutesWrapper = () => {
           <Route path="*" element={<Page404 />} />
         </Route>
       </Routes>
-    </BrowserRouter>
+    </HashRouter>
   );
 };
 
