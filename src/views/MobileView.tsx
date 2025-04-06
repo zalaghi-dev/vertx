@@ -14,12 +14,12 @@ const MobileView = () => {
         <div className="flex mx-0 my-4 justify-between items-center">
           <img
             className="size-8 ms-3 rounded-full"
-            src="/images/avatar-sample.png"
+            src="./images/avatar-sample.png"
             alt="Avatar"
           />
           <img
             className="size-8 rounded-full"
-            src="/images/avatar-sample.png"
+            src="./images/avatar-sample.png"
             alt="Logo"
           />
           <div className="size-8 ms-3 hover:cursor-pointer hover:text-gray-0">

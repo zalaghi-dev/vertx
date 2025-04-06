@@ -28,7 +28,7 @@ const DesktopView = () => {
                         status as "ONLINE" | "OFFLINE" | "IDLE" /*FOR NOW*/
                       }
                       id="1"
-                      src="/images/avatar-sample.png"
+                      src="./images/avatar-sample.png"
                     />
                   </div>
                 ))}
